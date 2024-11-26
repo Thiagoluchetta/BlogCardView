@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 16px;
+}
+
+.mainConteiner{
+    background-color:hsl(47, 88%, 63%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardConteiner{
+    height: 520px;
+    width: 380px;
+    border: 1px solid black ;
+    border-radius: 20px;
+    box-shadow: 5px 5px black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.fotoArtigo{
+    margin: 22px 20px 0px 20px;
+    border-radius: 15px;
+    height: 200px;
+}
+.textos{
+    margin: 15px 20px 20px 22px;
+}
+footer{
+    margin: 12px 10px 12px 2px;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+article{
+    margin: 12px 10px 12px 2px;
+    line-height: 1.5em;
+}
+footer{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-weight: bold;
+    font-size: medium;
+   
+}
+.fotoRosto{
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+}
+.colorido{
+    background-color: hsl(47, 88%, 63%);
+    height: 20px;
+    width: 75px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 14px;
+}
+h1{
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 15px 10px 15px 2px;
+}
+.attribution,.attribution a{
+    font-size: 12px;
+    margin: 8px;
+}
+p{
+    margin: 10px 10px 12px 2px;
+    line-height: 1.5em;
+    font-size: 14px;
+}
